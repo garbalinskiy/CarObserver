@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C13758EA1E7BE91D0012DC35 /* AVBYParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758E81E7BE91B0012DC35 /* AVBYParser.swift */; };
+		C13758F11E7BE92F0012DC35 /* COSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758EB1E7BE92A0012DC35 /* COSource.swift */; };
+		C13758F21E7BE92F0012DC35 /* COSourceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758EC1E7BE92A0012DC35 /* COSourceParser.swift */; };
+		C13758F31E7BE92F0012DC35 /* COSourceReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758ED1E7BE92A0012DC35 /* COSourceReader.swift */; };
+		C13758F81E7BE93F0012DC35 /* COEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758F41E7BE93A0012DC35 /* COEngine.swift */; };
+		C13758F91E7BE93F0012DC35 /* COEngine.targets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758F51E7BE93A0012DC35 /* COEngine.targets.swift */; };
+		C13759021E7BE9550012DC35 /* COConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758FA1E7BE9500012DC35 /* COConstants.swift */; };
+		C13759031E7BE9550012DC35 /* COLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758FB1E7BE9500012DC35 /* COLogger.swift */; };
+		C13759041E7BE9550012DC35 /* COMailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758FC1E7BE9500012DC35 /* COMailer.swift */; };
+		C13759051E7BE9550012DC35 /* MandrillConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13758FD1E7BE9500012DC35 /* MandrillConstants.swift */; };
+		OBJ_26 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CSS.swift */; };
+		OBJ_27 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Kanna.swift */; };
+		OBJ_28 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* libxmlHTMLDocument.swift */; };
+		OBJ_29 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* libxmlHTMLNode.swift */; };
+		OBJ_30 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* libxmlParserOption.swift */; };
+		OBJ_37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* main.swift */; };
+		OBJ_39 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Kanna.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C13758E41E7BE7530012DC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_21;
+			remoteInfo = Kanna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C13758E81E7BE91B0012DC35 /* AVBYParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVBYParser.swift; path = Parser/AVBYParser.swift; sourceTree = "<group>"; };
+		C13758EB1E7BE92A0012DC35 /* COSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COSource.swift; path = Source/COSource.swift; sourceTree = "<group>"; };
+		C13758EC1E7BE92A0012DC35 /* COSourceParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COSourceParser.swift; path = Source/COSourceParser.swift; sourceTree = "<group>"; };
+		C13758ED1E7BE92A0012DC35 /* COSourceReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COSourceReader.swift; path = Source/COSourceReader.swift; sourceTree = "<group>"; };
+		C13758F41E7BE93A0012DC35 /* COEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COEngine.swift; path = Engine/COEngine.swift; sourceTree = "<group>"; };
+		C13758F51E7BE93A0012DC35 /* COEngine.targets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COEngine.targets.swift; path = Engine/COEngine.targets.swift; sourceTree = "<group>"; };
+		C13758FA1E7BE9500012DC35 /* COConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COConstants.swift; sourceTree = "<group>"; };
+		C13758FB1E7BE9500012DC35 /* COLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COLogger.swift; sourceTree = "<group>"; };
+		C13758FC1E7BE9500012DC35 /* COMailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COMailer.swift; sourceTree = "<group>"; };
+		C13758FD1E7BE9500012DC35 /* MandrillConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MandrillConstants.swift; sourceTree = "<group>"; };
+		OBJ_10 /* Kanna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanna.swift; sourceTree = "<group>"; };
+		OBJ_11 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		OBJ_12 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		OBJ_13 /* libxmlParserOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlParserOption.swift; sourceTree = "<group>"; };
+		OBJ_15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Supporting Files"; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_20 /* CarObserver */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarObserver; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* CSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_39 /* Kanna.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C13758E51E7BE7C70012DC35 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				C13758F41E7BE93A0012DC35 /* COEngine.swift */,
+				C13758F51E7BE93A0012DC35 /* COEngine.targets.swift */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		C13758E61E7BE7CE0012DC35 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C13758EB1E7BE92A0012DC35 /* COSource.swift */,
+				C13758EC1E7BE92A0012DC35 /* COSourceParser.swift */,
+				C13758ED1E7BE92A0012DC35 /* COSourceReader.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C13758E71E7BE7D40012DC35 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				C13758E81E7BE91B0012DC35 /* AVBYParser.swift */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		OBJ_14 /* CarObserver */ = {
+			isa = PBXGroup;
+			children = (
+				C13758E71E7BE7D40012DC35 /* Parser */,
+				C13758E61E7BE7CE0012DC35 /* Source */,
+				C13758E51E7BE7C70012DC35 /* Engine */,
+				C13758FA1E7BE9500012DC35 /* COConstants.swift */,
+				C13758FB1E7BE9500012DC35 /* COLogger.swift */,
+				C13758FC1E7BE9500012DC35 /* COMailer.swift */,
+				C13758FD1E7BE9500012DC35 /* MandrillConstants.swift */,
+				OBJ_15 /* main.swift */,
+			);
+			name = CarObserver;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* Kanna.framework */,
+				OBJ_20 /* CarObserver */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_16 /* Tests */,
+				OBJ_17 /* Supporting Files */,
+				OBJ_18 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Kanna */,
+				OBJ_14 /* CarObserver */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* Kanna */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* CSS.swift */,
+				OBJ_10 /* Kanna.swift */,
+				OBJ_11 /* libxmlHTMLDocument.swift */,
+				OBJ_12 /* libxmlHTMLNode.swift */,
+				OBJ_13 /* libxmlParserOption.swift */,
+			);
+			name = Kanna;
+			path = "Packages/Kanna-2.2.0/Sources/Kanna";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_21 /* Kanna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_22 /* Build configuration list for PBXNativeTarget "Kanna" */;
+			buildPhases = (
+				OBJ_25 /* Sources */,
+				OBJ_31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kanna;
+			productName = Kanna;
+			productReference = OBJ_19 /* Kanna.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_32 /* CarObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXNativeTarget "CarObserver" */;
+			buildPhases = (
+				OBJ_36 /* Sources */,
+				OBJ_38 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_40 /* PBXTargetDependency */,
+			);
+			name = CarObserver;
+			productName = CarObserver;
+			productReference = OBJ_20 /* CarObserver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CarObserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_21 /* Kanna */,
+				OBJ_32 /* CarObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_26 /* CSS.swift in Sources */,
+				OBJ_27 /* Kanna.swift in Sources */,
+				OBJ_28 /* libxmlHTMLDocument.swift in Sources */,
+				OBJ_29 /* libxmlHTMLNode.swift in Sources */,
+				OBJ_30 /* libxmlParserOption.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				C13759031E7BE9550012DC35 /* COLogger.swift in Sources */,
+				C13759041E7BE9550012DC35 /* COMailer.swift in Sources */,
+				C13758EA1E7BE91D0012DC35 /* AVBYParser.swift in Sources */,
+				C13758F91E7BE93F0012DC35 /* COEngine.targets.swift in Sources */,
+				OBJ_37 /* main.swift in Sources */,
+				C13759051E7BE9550012DC35 /* MandrillConstants.swift in Sources */,
+				C13759021E7BE9550012DC35 /* COConstants.swift in Sources */,
+				C13758F11E7BE92F0012DC35 /* COSource.swift in Sources */,
+				C13758F21E7BE92F0012DC35 /* COSourceParser.swift in Sources */,
+				C13758F31E7BE92F0012DC35 /* COSourceReader.swift in Sources */,
+				C13758F81E7BE93F0012DC35 /* COEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_21 /* Kanna */;
+			targetProxy = C13758E41E7BE7530012DC35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"Packages/SwiftClibxml2-1.0.2",
+				);
+				INFOPLIST_FILE = CarObserver.xcodeproj/Kanna_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libxml2/2.9.4_2/lib",
+					"-lxml2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libxml2/2.9.4_2/include/libxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = Kanna;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Kanna;
+			};
+			name = Debug;
+		};
+		OBJ_24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"Packages/SwiftClibxml2-1.0.2",
+				);
+				INFOPLIST_FILE = CarObserver.xcodeproj/Kanna_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libxml2/2.9.4_2/lib",
+					"-lxml2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libxml2/2.9.4_2/include/libxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = Kanna;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Kanna;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"Packages/SwiftClibxml2-1.0.2",
+				);
+				INFOPLIST_FILE = CarObserver.xcodeproj/CarObserver_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libxml2/2.9.4_2/lib",
+					"-lxml2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libxml2/2.9.4_2/include/libxml2";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = CarObserver;
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"Packages/SwiftClibxml2-1.0.2",
+				);
+				INFOPLIST_FILE = CarObserver.xcodeproj/CarObserver_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libxml2/2.9.4_2/lib",
+					"-lxml2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libxml2/2.9.4_2/include/libxml2";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = CarObserver;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "CarObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_22 /* Build configuration list for PBXNativeTarget "Kanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_23 /* Debug */,
+				OBJ_24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_33 /* Build configuration list for PBXNativeTarget "CarObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
