@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_21"
+               BlueprintIdentifier = "OBJ_31"
                BuildableName = "Kanna.framework"
                BlueprintName = "Kanna"
                ReferencedContainer = "container:CarObserver.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_32"
+               BlueprintIdentifier = "OBJ_42"
                BuildableName = "CarObserver"
                BlueprintName = "CarObserver"
                ReferencedContainer = "container:CarObserver.xcodeproj">
@@ -59,7 +59,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_21"
+            BlueprintIdentifier = "OBJ_31"
             BuildableName = "Kanna.framework"
             BlueprintName = "Kanna"
             ReferencedContainer = "container:CarObserver.xcodeproj">
